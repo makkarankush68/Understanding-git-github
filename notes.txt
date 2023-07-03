@@ -1,0 +1,13 @@
+1) git init :-> to add .git to a folder so that it starts tracking/working in it.
+
+2) git add . (OR) add names.txt :-> add files to stage {. for all files at once}
+	
+*) git restore --staged . :-> remove files from stage 
+
+3) git status :-> status of all files that are changed or modefied
+
+4) git commit -m "initial commit" :-> to commit all staged files with some message
+
+5) "nothing to commit working on tree clean" comes when no change is there
+
+6) git log :-> to see the timeline of all changes 

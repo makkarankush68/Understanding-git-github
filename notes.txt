@@ -34,5 +34,6 @@
     and as 1 branch can make 1 pull request make diff branch for dff changes
 
 15) git pull upstream main :-> update files on local machine with changes on main repo and push it to origin to change in fork also
+it wont let you  push if local is behind the branch being pushed
 
 16) git rebase -i [hash] :-> list all comits above hash and s (squash) them to merge with upper commit

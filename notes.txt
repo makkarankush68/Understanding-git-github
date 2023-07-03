@@ -1,6 +1,6 @@
 1) git init :-> to add .git to a folder so that it starts tracking/working in it.
 
-2) git add . (OR) add names.txt :-> add files to stage {. for all files at once}
+2) git add . (OR) add file.txt :-> add files to stage {. for all files at once}
 	
 *) git restore --staged . :-> remove files from stage 
 
@@ -11,3 +11,16 @@
 5) "nothing to commit working on tree clean" comes when no change is there
 
 6) git log :-> to see the timeline of all changes 
+
+7) git reset [hash] :-> remove all commits above it
+
+8) git stash :-> remove all the changes that were added to backstage (ie in memory)
+
+*) git stash pop :-> get back all the changes in stash/memory
+*) git stash clear :-> removes all changes from stash/memory
+
+9) git remote add origin [repo link] :-> links the repo to your folder/files
+
+10) git push origin master :-> push commit changes to master branch
+
+11) 

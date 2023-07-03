@@ -21,7 +21,7 @@
 
 9) git remote add origin [repo link] :-> links the repo to your folder/files
 
-10) git push origin master/other_branch :-> push commit changes to master or any other branch
+10) git push origin main/other_branch :-> push commit changes to master or any other branch
 	-f (force push) can be used to push after reset to prev hash
 
 11) git clone [repo link] :-> loads all data/files from repo to your folder even of others as origin

@@ -21,6 +21,18 @@
 
 9) git remote add origin [repo link] :-> links the repo to your folder/files
 
-10) git push origin master :-> push commit changes to master branch
+10) git push origin master/other_branch :-> push commit changes to master or any other branch
+	-f (force push) can be used to push after reset to prev hash
 
-11) 
+11) git clone [repo link] :-> loads all data/files from repo to your folder even of others as origin
+*) git remote add upstream [repo link] :-> adds link to the source we copied to make pull requests
+
+12) git branch [name] :-> create a new branch
+13) git checkout [branch] :-> hoping to diff branches
+
+14) after pushing it to your fork branch pull request can be made from github 
+    and as 1 branch can make 1 pull request make diff branch for dff changes
+
+15) git pull upstream main :-> update files on local machine with changes on main repo and push it to origin to change in fork also
+
+16) git rebase -i [hash] :-> list all comits above hash and s (squash) them to merge with upper commit
